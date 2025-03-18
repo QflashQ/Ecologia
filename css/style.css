@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  background-color: aqua;
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px 10%;
+  color: black;
+
+}
+
+article {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+div {
+  border: 2px solid rgb(red, green, blue);
+  border-radius: 15px;
+  padding: 2%;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: antiquewhite;
+
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: aquamarine;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 2%;
+    border: 3px dashed;
+
+
+    div {
+      padding: 2%;
+    }
+    
+    pre {
+      display: none;
+    }
+  }
+}
